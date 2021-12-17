@@ -4,6 +4,10 @@ var ul = document.querySelector("ul");
 var liArray = document.querySelectorAll("li");
 var deleteButtons
 
+function newFirstFunction () {
+	console.log("new first function")
+}
+
 function inputLength () {
 	return input.value.length;
 }
